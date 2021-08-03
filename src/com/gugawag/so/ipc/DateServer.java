@@ -19,6 +19,7 @@ public class DateServer{
 			ServerSocket sock = new ServerSocket(6013);
 
 			System.out.println("=== Servidor iniciado ===\n");
+			System.out.println("=== Lucas Rodrigues ===");
 			// escutando por conexões
 			while (true) {
 				Socket client = sock.accept();
